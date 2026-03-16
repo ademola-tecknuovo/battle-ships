@@ -1,3 +1,5 @@
+from pc_selection import place_computer_ships
+
 import random
 import time
 import json
@@ -109,6 +111,10 @@ def print_boards(player_board, computer_board):
 # CREATE THE BOARDS
 player_board = create_board()
 computer_board = create_board()
+
+# calling function from pc_selection file
+place_computer_ships(computer_board)
+place_computer_ships(player_board)
 
 # PRINT THEM
 print_boards(player_board, computer_board)
