@@ -40,7 +40,7 @@ def place_ships(board):
 # PREVENTS SHIPS FROM GOING OFF THE 10 X 10 GRID HORIZONTALLY 
             if direction == "H" and col + size <= 10:
 
-# CHECKS POSITIONS ARE FREE TO PLACE THE SHIPS. PREVENTS OVERLAPPING                
+# CHECKS POSITIONS ARE FREE TO PLACE THE SHIPS. PREVENTS OVERLAPPING              
                 if all(board[row][col + i] == WATER for i in range(size)):
 
 # PLACES EACH SHIP ON THE BOARD

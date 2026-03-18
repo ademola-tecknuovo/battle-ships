@@ -34,7 +34,8 @@ while True:
         print("Invalid input!")
         continue
 
-# FUNCTION CHECKS IF THE PLAYERS SHOT IS A HIT, MISS OR ALREADY TRIED
+# FUNCTION GETS THE ROW AND COLUMN FROM THE THE USERS INPUT
+# THEN FIRES A SHOT AT THE POSITION ON THE COMPUTERS BOARD AND STORE THE RESULT
     row, col = result
 
     shot_result = take_shot(computer_board, computer_ships, row, col)
