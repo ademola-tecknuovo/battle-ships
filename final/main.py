@@ -16,6 +16,7 @@ computer_ships = place_ships(computer_board)
 computer_previous_shots = []
 
 # SHOW THE COMPUTERS BOARD FOR TESTING. NORMALLY THIS WILL BE HIDDEN 
+# COMMENT THIS LINE OUT TO REMOVE THE COMPUTER BOARD
 print_single_board(computer_board, "DEBUG - Computer's Board (remove this later!)")
 
 # WHILE LOOP TO KEEP RUNNING UNTIL PLAYER OR COMPUTER WINS
